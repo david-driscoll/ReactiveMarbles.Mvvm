@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <PackageVersion Include="Nerdbank.GitVersioning" Version="3.5.108" />
+    <PackageVersion Include="Nerdbank.GitVersioning" Version="3.5.119" />
   </ItemGroup>
   <ItemGroup>
     <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435" />
-    <PackageVersion Include="Roslynator.Analyzers" Version="4.1.1" />
+    <PackageVersion Include="Roslynator.Analyzers" Version="4.2.0" />
     <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
@@ -20,6 +23,7 @@
     <PackageVersion Include="ReactiveMarbles.Extensions" Version="1.0.4" />
     <PackageVersion Include="ReactiveMarbles.Locator" Version="1.1.4" />
     <PackageVersion Include="ReactiveMarbles.PropertyChanged" Version="2.0.27" />
+    <PackageVersion Include="ReactiveMarbles.RoslynHelpers" Version="1.2.8" />
     <PackageVersion Include="System.Reactive" Version="5.0.0" />
   </ItemGroup>
   <ItemGroup>
@@ -28,7 +32,7 @@
     <PackageVersion Include="FluentAssertions" Version="6.7.0" />
     <PackageVersion Include="FluentAssertions.Analyzers" Version="0.17.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
-    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="3.10.0" PrivateAssets="all" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="3.11.0" PrivateAssets="all" />
     <PackageVersion Include="Microsoft.Reactive.Testing" Version="5.0.0" />
     <PackageVersion Include="ReactiveMarbles.SourceGenerator.TestNuGetHelper" Version="1.2.1" />
     <PackageVersion Include="Verify.SourceGenerators" Version="1.5.0" />
