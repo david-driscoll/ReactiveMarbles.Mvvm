@@ -2,18 +2,17 @@
 // ReactiveUI Association Incorporated licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for full license information.
 
-using System;
+using VerifyTests;
 
-namespace ReactiveMarbles.Mvvm;
+namespace ReactiveMarbles.Mvvm.SourceGenerator.Tests;
 
 /// <summary>
-/// Represents a typed value for binding to UI elements.
+/// Initialize for the module.
 /// </summary>
-/// <typeparam name="T">The value type.</typeparam>
-public interface IValueBinder<T> : IDisposable
+public static class ModuleInitializer
 {
     /// <summary>
-    /// Gets the latest value.
+    /// Initializes the source generators.
     /// </summary>
-    T Value { get; }
+    public static void Init() => VerifySourceGenerators.Enable();
 }

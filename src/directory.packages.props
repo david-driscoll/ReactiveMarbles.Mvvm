@@ -32,14 +32,14 @@
     <PackageVersion Include="FluentAssertions" Version="6.7.0" />
     <PackageVersion Include="FluentAssertions.Analyzers" Version="0.17.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
-    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="3.11.0" PrivateAssets="all" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp" Version="3.11.0" />
     <PackageVersion Include="Microsoft.Reactive.Testing" Version="5.0.0" />
     <PackageVersion Include="ReactiveMarbles.SourceGenerator.TestNuGetHelper" Version="1.2.1" />
     <PackageVersion Include="Verify.SourceGenerators" Version="1.5.0" />
     <PackageVersion Include="Verify.Xunit" Version="17.1.6" />
     <PackageVersion Include="xunit" Version="2.4.1" />
     <PackageVersion Include="xunit.analyzers" Version="0.10.0" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.1" />
   </ItemGroup>
   <Import Project="$(MSBuildThisFileDirectory)/directory.packages.support.props" Condition="Exists('$(MSBuildThisFileDirectory)/directory.packages.support.props')" />
 </Project>
